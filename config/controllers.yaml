@@ -1,0 +1,51 @@
+controller_joint_names:
+  - joint_1
+  - joint_2
+  - joint_3
+  - joint_4
+  - joint_5
+  - joint_6
+  - joint_8
+  - joint_9
+
+joint_controllers:
+  - name: joint_1_controller
+    type: position_controllers/JointPositionController
+    joint: joint_1
+    pid: {p: 1.0, i: 0.0, d: 0.0}
+
+  - name: joint_2_controller
+    type: position_controllers/JointPositionController
+    joint: joint_2
+    pid: {p: 1.0, i: 0.0, d: 0.0}
+
+  - name: joint_3_controller
+    type: position_controllers/JointPositionController
+    joint: joint_3
+    pid: {p: 1.0, i: 0.0, d: 0.0}
+
+  - name: joint_4_controller
+    type: position_controllers/JointPositionController
+    joint: joint_4
+    pid: {p: 1.0, i: 0.0, d: 0.0}
+
+  - name: joint_5_controller
+    type: position_controllers/JointPositionController
+    joint: joint_5
+    pid: {p: 1.0, i: 0.0, d: 0.0}
+
+  - name: joint_6_controller
+    type: velocity_controllers/JointVelocityController
+    joint: joint_6
+    pid: {p: 1.0, i: 0.0, d: 0.0}
+
+  - name: joint_8_controller
+    type: position_controllers/JointPositionController
+    joint: joint_8
+    pid: {p: 1.0, i: 0.0, d: 0.0}
+
+  - name: joint_9_controller
+    type: position_controllers/JointPositionController
+    joint: joint_9
+    pid: {p: 1.0, i: 0.0, d: 0.0}
+

@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: assembly_updated
+    relative_path: urdf/assembly_updated.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/assembly_updated.srdf
+  CONFIG:
+    author_name: SaiBharadhwajMatha
+    author_email: bharadhwajsaimatha@gmail.com
+    generated_timestamp: 1686927142
